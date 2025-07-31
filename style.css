@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 25px;
+  font-size: 26px;
+}
+
+.file-label {
+  display: inline-block;
+  background-color: #f0f0f0;
+  border: 2px dashed #ccc;
+  padding: 15px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #444;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+}
+
+.file-label:hover {
+  background-color: #e6e6e6;
+}
+
+.file-label input[type="file"] {
+  display: none;
+}
+
+.convert-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s, transform 0.2s;
+  margin-bottom: 20px;
+}
+
+.convert-btn:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+.download-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.download-link:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
