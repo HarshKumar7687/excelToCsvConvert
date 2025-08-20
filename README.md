@@ -25,10 +25,3 @@ It runs entirely in the browser, so no server or backend is required — ensurin
 - **JavaScript**  
 - **SheetJS (xlsx.js library)** for parsing Excel files  
 
-## 📂 Project Structure
-
-excelToCsvConvert/
-│── index.html
-│── style.css
-│── script.js
-│── README.md
